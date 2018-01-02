@@ -440,5 +440,5 @@
 
     framework（或sdk）问题的本质原因在于其强耦合的代码架构和松耦合的敏捷团队之间的矛盾。framework是非常粗粒度的技术划分，里面的代码之间可能没有任何关系，仅仅因为它们都是“公用代码”就走到一起。更糟糕的是，很多领域业务，因为多个项目需要用到而跑到了framework中（本应当抽离成独立的服务）。
 
-### 实例：事件系统说明
-参见[公司gitlab](https://git.mysoft.com.cn/cloudserver/mSDK/tree/master/event)
+### 实例：事件系统
+参见[event](https://github.com/linvanda/event)
